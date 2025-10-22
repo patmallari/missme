@@ -36,19 +36,20 @@ function showResult() {
     const heart = '<div class="heart">💕</div>';
 
     if (answers[1] === 'yes' && answers[2] === 'yes' && answers[3] === 'yes') {
-        message = heart + "Perfect! I miss you too and can't wait to see you. Let's make something awsome happen! 🥰";
+        message = heart + "Perfect! I miss you too and can't wait to see you. Let's plan sumn awesome! 🥰";
     } else if (answers[1] === 'yes' && answers[2] === 'yes') {
-        message = heart + "I miss you too! I'm happy you want to see me. Let's make it happen soon! ❤️";
+        message = heart + "I miss you too! I'm happy you want to see me. Let's make it happen A$AP! ❤️";
     } else if (answers[1] === 'yes') {
-        message = heart + "Aww, I miss you too! Even though we can't meet right now, you're always on my mind. 💭";
+        message = heart + "Aww, I miss you too! Even though we can't each other rn, you're always on my mind. 💭";
     } else if (answers[2] === 'yes' && answers[3] === 'yes') {
-        message = heart + "I love your enthusiasm! Let's plan something really special together. ✨";
+        message = heart + "I love your enthusiasm! Let's plan sumn really special. ✨";
     } else if (answers[2] === 'yes') {
         message = heart + "I want to see you too! Let's find the perfect time. 😊";
     } else {
-        message = heart + "That's okay! I appreciate your honesty. Just know I'm here whenever you want. 💙";
+        message = heart + "That's okay! I appreciate your honesty 🥹. Just know I'm here whenever you want. 💙";
     }
 
     question.innerHTML = message;
     result.innerHTML = '<button class="yes-btn" style="margin-top: 30px;" onclick="location.reload()">Start Over</button>';
 }
+
